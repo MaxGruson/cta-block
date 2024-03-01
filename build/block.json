@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "maxgruson/cta-block",
+  "version": "0.1.0",
+  "title": "Call To Action",
+  "category": "widgets",
+  "icon": "star-filled",
+  "description": "Een “call to action” (CTA) vestigt speciale aandacht op een handeling, zoals “Download hier het jaarverslag”.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "link": {
+      "type": "object"
+    }
+  },
+  "textdomain": "cta-block",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
