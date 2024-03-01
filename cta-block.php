@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       CTA Block
- * Description:       Een “call to action” (CTA) vestigt speciale aandacht op een handeling, zoals “Download hier het jaarverslag”. Het Call To Action-blok bestaat uit een titel, omschrijving en link.
+ * Description:       Description: A "call to action" (CTA) draws special attention to an action, such as "Download the annual report here." The Call To Action block consists of a title, description and link.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
