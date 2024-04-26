@@ -1,7 +1,7 @@
 {
-	"name": "heading-block",
+	"name": "cta-block",
 	"version": "0.1.0",
-	"description": "A simple heading block with optional subheading.",
+	"description": "Een “call to action” (CTA) vestigt speciale aandacht op een handeling, zoals “Download hier het jaarverslag”. Het Call To Action-blok bestaat uit een titel, omschrijving en link.",
 	"author": "Max Gruson",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
@@ -16,5 +16,8 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27.1.0"
+	},
+	"dependencies": {
+		"@wordpress/icons": "^9.41.0"
 	}
 }

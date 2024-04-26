@@ -5,7 +5,14 @@
  * Replace them with your own styles or remove the file completely.
 */
 body, .editor-styles-wrapper {
-  .wp-block-maxgruson-heading-block {
+  .wp-block-maxgruson-cta-block {
+    padding: 2em;
+    background-color: var(--wp--preset--color--pattens-blue);
+    border-radius: .2em;
 
+    &.invalid {
+      outline: solid 2px var(--wp--preset--color--vivid-red);
+      outline-offset: 5px;
+    }
   }
 }
