@@ -1,16 +1,16 @@
 <?php
 /**
- * Plugin Name:       CTA Block
- * Description:       A "call to action" (CTA) draws special attention to an action, such as "Download the annual report here." The Call To Action block consists of a title, description and link.
+ * Plugin Name:       Heading Block
+ * Description:       A simple heading block with optional subheading
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           1.0.2
+ * Version:           1.0.0
  * Author:            <a href="https://max.gruson.studio" target="_blank">Max Gruson</a>
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       cta-block
+ * Text Domain:       heading-block
  *
- * @package           maxgruson/cta-block
+ * @package           maxgruson/heading-block
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function cta_block_init() {
+function heading_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'cta_block_init' );
+add_action( 'init', 'heading_block_init' );
