@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "maxgruson/heading-block",
+	"name": "maxgruson/cta-block",
 	"version": "0.1.0",
-	"title": "Koptekst",
-	"category": "text",
-	"icon": "heading",
-	"description": "Een kop met optionele onderkop.",
+	"title": "Call To Action",
+	"category": "widgets",
+	"icon": "star-filled",
+	"description": "Een “call to action” (CTA) vestigt speciale aandacht op een handeling, zoals “Download hier het jaarverslag”.",
 	"example": {},
 	"supports": {
 		"html": false
@@ -15,11 +15,14 @@
 		"heading": {
 			"type": "string"
 		},
-		"subheading": {
+		"body": {
 			"type": "string"
+		},
+		"link": {
+			"type": "object"
 		}
 	},
-	"textdomain": "heading-block",
+	"textdomain": "cta-block",
 	"editorScript": "file:./index.js",
 	"style": "file:./style-index.css",
 	"render": "file:./render.php"
